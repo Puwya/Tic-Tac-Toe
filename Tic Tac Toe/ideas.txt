@@ -1,0 +1,14 @@
+﻿tic tac toe 
+
+11.13.21
+so making a cursor type tic tac toe might be a bit out of my range atm
+so I'm thinking of having a drop down menu where the users can choose what move they want via keyboard input
+    |   |
+    |   |
+‾‾‾‾|‾‾‾|‾‾‾‾
+____|___|____
+    |   |
+    |   |
+
+idea: on how to change player we can do something like even odd change ups will determine what player it is
+

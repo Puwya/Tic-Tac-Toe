@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Player 1 WC">
+      <UniqueIdentifier>{167a0338-c191-4280-9b7d-9598c733bc04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Player 2 WC">
+      <UniqueIdentifier>{21981c45-0877-4ffe-928e-5133be84a1fe}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="player2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="wc2.cpp">
+      <Filter>Source Files\Player 1 WC</Filter>
+    </ClCompile>
+    <ClCompile Include="wc1.cpp">
+      <Filter>Source Files\Player 1 WC</Filter>
+    </ClCompile>
+    <ClCompile Include="player1.cpp">
+      <Filter>Source Files\Player 1 WC</Filter>
+    </ClCompile>
+    <ClCompile Include="wc3.cpp">
+      <Filter>Source Files\Player 1 WC</Filter>
+    </ClCompile>
+    <ClCompile Include="wc4.cpp">
+      <Filter>Source Files\Player 1 WC</Filter>
+    </ClCompile>
+    <ClCompile Include="wc5.cpp">
+      <Filter>Source Files\Player 1 WC</Filter>
+    </ClCompile>
+    <ClCompile Include="wc6.cpp">
+      <Filter>Source Files\Player 1 WC</Filter>
+    </ClCompile>
+    <ClCompile Include="wc7.cpp">
+      <Filter>Source Files\Player 1 WC</Filter>
+    </ClCompile>
+    <ClCompile Include="wc8.cpp">
+      <Filter>Source Files\Player 1 WC</Filter>
+    </ClCompile>
+    <ClCompile Include="pwc1.cpp">
+      <Filter>Source Files\Player 2 WC</Filter>
+    </ClCompile>
+    <ClCompile Include="pwc2.cpp">
+      <Filter>Source Files\Player 2 WC</Filter>
+    </ClCompile>
+    <ClCompile Include="pwc3.cpp">
+      <Filter>Source Files\Player 2 WC</Filter>
+    </ClCompile>
+    <ClCompile Include="pwc4.cpp">
+      <Filter>Source Files\Player 2 WC</Filter>
+    </ClCompile>
+    <ClCompile Include="pwc5.cpp">
+      <Filter>Source Files\Player 2 WC</Filter>
+    </ClCompile>
+    <ClCompile Include="pwc6.cpp">
+      <Filter>Source Files\Player 2 WC</Filter>
+    </ClCompile>
+    <ClCompile Include="pwc7.cpp">
+      <Filter>Source Files\Player 2 WC</Filter>
+    </ClCompile>
+    <ClCompile Include="pwc8.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ideas.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
