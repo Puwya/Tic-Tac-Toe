@@ -4,7 +4,11 @@
 int main()
 {
 	std::string game = "game";
+	std::string Player1wins = "Player1Lost";
+	std::string Player2wins = "Player2Lost";
 	int move{};
+
+
 	std::cout << "Welcome to Tic Tac Toe!\n";	
 
 	while (game != "gameover")
@@ -27,8 +31,10 @@ int main()
 		player1(&move, &game);
 
 		if (game == "gameover")
+		{
+			Player1wins = "Player1wins";
 			continue;
-
+		}
 
 		std::cout << "\n\nPlease Select move set Player: 2!\n\n";
 
@@ -37,9 +43,14 @@ int main()
 
 		player2(&move, &game);
 
-
-
+		if (game == "gameover")
+			Player2wins = "Player2wins";
 
 
 	}
+	if (Player1wins == "Player1wins")
+		std::cout << "\n\n\n\n\nCongradulations Player 1 you Won!!!!!\n";
+
+	if (Player2wins == "Player2wins")
+		std::cout << "\n\n\n\n\nCongradulations Player 2 you Won!!!!!\n";
 }

@@ -24,9 +24,6 @@
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="player2.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="wc2.cpp">
       <Filter>Source Files\Player 1 WC</Filter>
     </ClCompile>
@@ -76,7 +73,10 @@
       <Filter>Source Files\Player 2 WC</Filter>
     </ClCompile>
     <ClCompile Include="pwc8.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\Player 2 WC</Filter>
+    </ClCompile>
+    <ClCompile Include="player2.cpp">
+      <Filter>Source Files\Player 2 WC</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
