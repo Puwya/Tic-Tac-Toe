@@ -140,24 +140,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="pwc2.cpp" />
     <ClCompile Include="player1.cpp" />
     <ClCompile Include="player2.cpp" />
     <ClCompile Include="pwc1.cpp" />
-    <ClCompile Include="pwc3.cpp" />
-    <ClCompile Include="pwc4.cpp" />
-    <ClCompile Include="pwc5.cpp" />
-    <ClCompile Include="pwc6.cpp" />
-    <ClCompile Include="pwc7.cpp" />
-    <ClCompile Include="pwc8.cpp" />
-    <ClCompile Include="wc1.cpp" />
-    <ClCompile Include="wc2.cpp" />
-    <ClCompile Include="wc3.cpp" />
-    <ClCompile Include="wc4.cpp" />
-    <ClCompile Include="wc5.cpp" />
-    <ClCompile Include="wc6.cpp" />
-    <ClCompile Include="wc7.cpp" />
-    <ClCompile Include="wc8.cpp" />
+    <ClCompile Include="wc.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="ideas.txt" />

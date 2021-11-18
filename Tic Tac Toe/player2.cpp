@@ -7,62 +7,47 @@ void player2(int* ptr, std::string* wc)
 
 	if (*ptr == 1)
 	{
-		ctr = 2;
-		pwc1(&wc, &tm, &ctr, &bm);
-		pwc5(&wc, &ml, &ctr, &mr);
-		pwc7(&wc, &tl, &ctr, &br);
-		pwc8(&wc, &tr, &ctr, &bl);
+		ctr = 1;
+		pwc1(&wc, &ctr, &tl, &tr, &tm, &ml, &mr, &bl, &br, &bm);
 	}
 	if (*ptr == 2)
 	{
-		tl = 2;
-		pwc3(&wc, &tl, &ml, &bl);
-		pwc4(&wc, &tl, &tm, &tr);
-		pwc7(&wc, &tl, &ctr, &br);
+		tl = 1;
+		pwc1(&wc, &ctr, &tl, &tr, &tm, &ml, &mr, &bl, &br, &bm);
 	}
 	if (*ptr == 3)
 	{
-		tr = 2;
-		pwc2(&wc, &tr, &mr, &br);
-		pwc4(&wc, &tl, &tm, &tr);
-		pwc8(&wc, &tr, &ctr, &bl);
+		tr = 1;
+		pwc1(&wc, &ctr, &tl, &tr, &tm, &ml, &mr, &bl, &br, &bm);
 	}
 	if (*ptr == 4)
 	{
-		tm = 2;
-		pwc1(&wc, &tm, &ctr, &bm);
-		pwc4(&wc, &tl, &tm, &tr);
+		tm = 1;
+		pwc1(&wc, &ctr, &tl, &tr, &tm, &ml, &mr, &bl, &br, &bm);
 	}
 	if (*ptr == 5)
 	{
-		ml = 2;
-		pwc3(&wc, &tl, &ml, &bl);
-		pwc5(&wc, &ml, &ctr, &mr);
+		ml = 1;
+		pwc1(&wc, &ctr, &tl, &tr, &tm, &ml, &mr, &bl, &br, &bm);
 	}
 	if (*ptr == 6)
 	{
-		mr = 2;
-		pwc2(&wc, &tr, &mr, &br);
-		pwc5(&wc, &ml, &ctr, &mr);
+		mr = 1;
+		pwc1(&wc, &ctr, &tl, &tr, &tm, &ml, &mr, &bl, &br, &bm);
 	}
 	if (*ptr == 7)
 	{
-		bl = 2;
-		pwc3(&wc, &tl, &ml, &bl);
-		pwc6(&wc, &bl, &bm, &br);
-		pwc8(&wc, &tr, &ctr, &bl);
+		bl = 1;
+		pwc1(&wc, &ctr, &tl, &tr, &tm, &ml, &mr, &bl, &br, &bm);
 	}
 	if (*ptr == 8)
 	{
-		br = 2;
-		pwc2(&wc, &tr, &mr, &br);
-		pwc6(&wc, &bl, &bm, &br);
-		pwc7(&wc, &tl, &ctr, &br);
+		br = 1;
+		pwc1(&wc, &ctr, &tl, &tr, &tm, &ml, &mr, &bl, &br, &bm);
 	}
 	if (*ptr == 9)
 	{
-		bm = 2;
-		pwc1(&wc, &tm, &ctr, &bm);
-		pwc6(&wc, &bl, &bm, &br);
+		bm = 1;
+		pwc1(&wc, &ctr, &tl, &tr, &tm, &ml, &mr, &bl, &br, &bm);
 	}
 }

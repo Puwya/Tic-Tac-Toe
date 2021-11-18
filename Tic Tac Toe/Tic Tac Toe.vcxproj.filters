@@ -24,55 +24,13 @@
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="wc2.cpp">
-      <Filter>Source Files\Player 1 WC</Filter>
-    </ClCompile>
-    <ClCompile Include="wc1.cpp">
+    <ClCompile Include="wc.cpp">
       <Filter>Source Files\Player 1 WC</Filter>
     </ClCompile>
     <ClCompile Include="player1.cpp">
       <Filter>Source Files\Player 1 WC</Filter>
     </ClCompile>
-    <ClCompile Include="wc3.cpp">
-      <Filter>Source Files\Player 1 WC</Filter>
-    </ClCompile>
-    <ClCompile Include="wc4.cpp">
-      <Filter>Source Files\Player 1 WC</Filter>
-    </ClCompile>
-    <ClCompile Include="wc5.cpp">
-      <Filter>Source Files\Player 1 WC</Filter>
-    </ClCompile>
-    <ClCompile Include="wc6.cpp">
-      <Filter>Source Files\Player 1 WC</Filter>
-    </ClCompile>
-    <ClCompile Include="wc7.cpp">
-      <Filter>Source Files\Player 1 WC</Filter>
-    </ClCompile>
-    <ClCompile Include="wc8.cpp">
-      <Filter>Source Files\Player 1 WC</Filter>
-    </ClCompile>
     <ClCompile Include="pwc1.cpp">
-      <Filter>Source Files\Player 2 WC</Filter>
-    </ClCompile>
-    <ClCompile Include="pwc2.cpp">
-      <Filter>Source Files\Player 2 WC</Filter>
-    </ClCompile>
-    <ClCompile Include="pwc3.cpp">
-      <Filter>Source Files\Player 2 WC</Filter>
-    </ClCompile>
-    <ClCompile Include="pwc4.cpp">
-      <Filter>Source Files\Player 2 WC</Filter>
-    </ClCompile>
-    <ClCompile Include="pwc5.cpp">
-      <Filter>Source Files\Player 2 WC</Filter>
-    </ClCompile>
-    <ClCompile Include="pwc6.cpp">
-      <Filter>Source Files\Player 2 WC</Filter>
-    </ClCompile>
-    <ClCompile Include="pwc7.cpp">
-      <Filter>Source Files\Player 2 WC</Filter>
-    </ClCompile>
-    <ClCompile Include="pwc8.cpp">
       <Filter>Source Files\Player 2 WC</Filter>
     </ClCompile>
     <ClCompile Include="player2.cpp">
