@@ -33,5 +33,4 @@
 
 # Custom
 *.DS_Store
-test/
 *build/
