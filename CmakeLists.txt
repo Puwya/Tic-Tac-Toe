@@ -5,7 +5,14 @@ set(CMAKE_BUILD_TYPE Debug)
 
 project(main)
 
-add_executable(${PROJECT_NAME} src/main.cpp)
+add_executable(
+    ${PROJECT_NAME} src/main.cpp src/AI/checkAiInput.cpp src/AI/easyAi.cpp
+    src/AI/hardAiBlocking.cpp src/AI/normalAiBlocking.cpp src/draw/displayBoard.cpp
+    src/draw/displayHeader.cpp src/draw/displayInstructions.cpp src/draw/displayWinner.cpp
+    src/handlers/getAndCheckInp.cpp src/handlers/initBoard.cpp
+    src/handlers/setPlayerNames.cpp src/handlers/switchToken.cpp src/handlers/thinking.cpp
+    src/win-conditions/hardWinConditionsAi.cpp src/win-conditions/winLogic.cpp
+    src/win-conditions/normalWinConditionsAi.cpp)
 target_include_directories(${PROJECT_NAME} PUBLIC /include)
 
 # Letting CMake find library
