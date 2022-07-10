@@ -30,79 +30,74 @@
  * std::string difficultyInput IN & CALC - used for determining Ai difficulty
  * const int ONE_SECOND CALC - used for storing int of 1000000 ms
  ***************************************************************************/
-int main() 
-{
-    std::string playerX {"PlayerX"};
-    std::string playerO {"PlayerO"};
-    char menuChoice {};
-    int ignoreCounter {0};
-    do
-    {
-        system("clear");//clear command in the terminal do to wipe every time while loop runs
-        displayHeader();
-        if(ignoreCounter < 1)
-            displayInstructions();
-        std::cout << "Main Menu\na. Exit\nb. Set Player Names\nc. Play in Two Player Mode\nd. Play in One Player Mode\nEnter Choice: ";
-        if(ignoreCounter > 0 && menuChoice != 'b')//if statement to ignore first run of the while loop
-            std::cin.ignore(10, '\n');
-        std::cin.get(menuChoice);
-        std::cin.ignore(10, '\n');
+int main() {
+  std::string playerX{"PlayerX"};
+  std::string playerO{"PlayerO"};
+  char menuChoice{};
+  int ignoreCounter{0};
+  do {
+    system(
+        "clear");  // clear command in the terminal do to wipe every time while loop runs
+    displayHeader();
+    if (ignoreCounter < 1) displayInstructions();
+    std::cout << "Main Menu\na. Exit\nb. Set Player Names\nc. Play in Two Player "
+                 "Mode\nd. Play in One Player Mode\nEnter Choice: ";
+    if (ignoreCounter > 0 &&
+        menuChoice != 'b')  // if statement to ignore first run of the while loop
+      std::cin.ignore(10, '\n');
+    std::cin.get(menuChoice);
+    std::cin.ignore(10, '\n');
 
-        switch(menuChoice)
-        {
-            case 'a': 
-                std::cout << "Thank You!\n";
-                usleep(ONE_SECOND);//Delay from reading next line of code one second
-                system("clear");
-                break;
-            case 'b':
-                setPlayerNames(playerX, playerO);
-                break;
-            case 'c':
-            {
-                char boardAr[3][3];
-                initBoard(boardAr);//initialize board to ' '
-                char whoWon {};
-                char token {'X'};
-                std::string difficultyInput {};
+    switch (menuChoice) {
+      case 'a':
+        std::cout << "Thank You!\n";
+        usleep(ONE_SECOND);  // Delay from reading next line of code one second
+        system("clear");
+        break;
+      case 'b':
+        setPlayerNames(playerX, playerO);
+        break;
+      case 'c': {
+        char boardAr[3][3];
+        initBoard(boardAr);  // initialize board to ' '
+        char whoWon{};
+        char token{'X'};
+        std::string difficultyInput{};
 
-                do
-                {
-                    system("clear");
-                    displayBoard(boardAr);
-                    getAndCheckInp(difficultyInput, menuChoice, boardAr, token, playerX, playerO);
-                    whoWon = winLogic(boardAr);//check win returns token 
-                    switchToken(token);
-                } while (whoWon != 't' && whoWon != 'X' && whoWon != 'O');
-                displayWinner(boardAr, whoWon, playerX, playerO);//display winner
-                break;
-            }
-            case 'd':
-            {
-                system("clear");
-                char boardAr[3][3];
-                initBoard(boardAr);
-                char whoWon {};
-                char token {'X'};
-                std::string difficultyInput {"Easy"};
+        do {
+          system("clear");
+          displayBoard(boardAr);
+          getAndCheckInp(difficultyInput, menuChoice, boardAr, token, playerX, playerO);
+          whoWon = winLogic(boardAr);  // check win returns token
+          switchToken(token);
+        } while (whoWon != 't' && whoWon != 'X' && whoWon != 'O');
+        displayWinner(boardAr, whoWon, playerX, playerO);  // display winner
+        break;
+      }
+      case 'd': {
+        system("clear");
+        char boardAr[3][3];
+        initBoard(boardAr);
+        char whoWon{};
+        char token{'X'};
+        std::string difficultyInput{"Easy"};
 
-                std::cout << "Select what difficultly you want the AI to be!\n";
-                std::cout << "Easy\nNormal\nHard\nEnter String: ";
-                std::getline(std::cin, difficultyInput);
+        std::cout << "Select what difficultly you want the AI to be!\n";
+        std::cout << "Easy\nNormal\nHard\nEnter String: ";
+        std::getline(std::cin, difficultyInput);
 
-                do
-                {
-                    system("clear");
-                    displayBoard(boardAr);
-                    getAndCheckInp(difficultyInput, menuChoice, boardAr, token, playerX, playerO);
-                    whoWon = winLogic(boardAr);
-                    switchToken(token);
-                } while (whoWon != 't' && whoWon != 'X' && whoWon != 'O');
-                displayWinner(boardAr, whoWon, playerX, playerO);
-                break;
-            }
-        }
-        ++ignoreCounter;
-    }while(menuChoice != 'a');
-    return 0;
+        do {
+          system("clear");
+          displayBoard(boardAr);
+          getAndCheckInp(difficultyInput, menuChoice, boardAr, token, playerX, playerO);
+          whoWon = winLogic(boardAr);
+          switchToken(token);
+        } while (whoWon != 't' && whoWon != 'X' && whoWon != 'O');
+        displayWinner(boardAr, whoWon, playerX, playerO);
+        break;
+      }
+    }
+    ++ignoreCounter;
+  } while (menuChoice != 'a');
+  return 0;
 }
