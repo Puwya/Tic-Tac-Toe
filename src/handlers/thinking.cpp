@@ -8,7 +8,7 @@
  * ----------
  ***************************************************************************/
 
-#include "main.h"
+#include "../../include/main.h"
 
 void thinking(char boardAr[][3]) {
   for (size_t i{3}; i > 0; i--) {

@@ -9,7 +9,7 @@
  * ----------
  ***************************************************************************/
 
-#include "main.h"
+#include "../../include/main.h"
 
 void displayWinner(
     const char boardAr[][3], const char &whoWon, const std::string &playerX,

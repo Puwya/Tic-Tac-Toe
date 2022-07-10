@@ -1,4 +1,4 @@
-#include "main.h"
+#include "../../include/main.h"
 
 void pwc1(
     std::string** endptr, int* ctr, int* tl, int* tr, int* tm, int* ml, int* mr, int* bl,

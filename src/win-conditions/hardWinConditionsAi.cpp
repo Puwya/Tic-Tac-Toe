@@ -10,7 +10,7 @@
  * ----------
  ***************************************************************************/
 
-#include "main.h"
+#include "../../include/main.h"
 
 bool hardWinConditionsAi(char boardAr[][3], const char token) {
   if (boardAr[0][0] == 'O' && boardAr[0][2] == 'O' && boardAr[0][1] != 'X') {

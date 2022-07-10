@@ -13,7 +13,7 @@
 #include <stdlib.h>
 #include <time.h>
 
-#include "main.h"
+#include "../../include/main.h"
 
 bool checkAiInput(const std::string difficulty, char boardAr[][3], const char token) {
   srand(time(NULL));

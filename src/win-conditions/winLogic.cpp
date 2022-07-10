@@ -10,7 +10,7 @@
  * static int plays CALC - calculates the number of plays made
  ***************************************************************************/
 
-#include "main.h"
+#include "../../include/main.h"
 
 char winLogic(char boardAr[][3]) {
   static int plays{0};

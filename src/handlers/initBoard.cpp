@@ -7,7 +7,7 @@
  * No Data Table
  * ----------
  ***************************************************************************/
-#include "main.h"
+#include "../../include/main.h"
 
 void initBoard(char boardAr[][3]) {
   for (size_t row{0}; row < 3; row++)

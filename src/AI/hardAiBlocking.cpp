@@ -8,7 +8,7 @@
  * ----------
  ***************************************************************************/
 
-#include "main.h"
+#include "../../include/main.h"
 
 bool hardAiBlocking(char boardAr[][3], const char token) {
   if (boardAr[0][0] == 'X' && boardAr[0][2] == 'X' && boardAr[0][1] != 'O') {

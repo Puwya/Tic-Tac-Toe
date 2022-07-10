@@ -8,7 +8,7 @@
  * ----------
  ***************************************************************************/
 
-#include "main.h"
+#include "../../include/main.h"
 
 void displayInstructions() {
   std::cout << "[Tic Tac Toe]\n";

@@ -1,4 +1,4 @@
-#include "main.h"
+#include "../../include/main.h"
 
 static int ctr = 20, tl = 30, tr = 40, tm = 50, ml = 60, mr = 70, bl = 80, br = 90,
            bm = 100;

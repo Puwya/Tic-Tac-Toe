@@ -15,7 +15,7 @@
  * the user chose one player mode
  ***************************************************************************/
 
-#include "main.h"
+#include "../../include/main.h"
 
 void getAndCheckInp(
     const std::string difficulty, const char onePlayerDeterminer, char boardAr[][3],

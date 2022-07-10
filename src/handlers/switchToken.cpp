@@ -9,7 +9,7 @@
  * char &token CALC - PBR and switch from current token
  ***************************************************************************/
 
-#include "main.h"
+#include "../../include/main.h"
 
 void switchToken(char &token) {
   if (token == 'X')

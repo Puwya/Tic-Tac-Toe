@@ -12,7 +12,7 @@
  * int col{rand() % 3} CALC - initializes col to a number between 0 & 2
  ***************************************************************************/
 
-#include "main.h"
+#include "../../include/main.h"
 
 bool easyAi(char boardAr[][3], const char token) {
   while (true) {

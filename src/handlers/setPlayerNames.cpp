@@ -12,7 +12,7 @@
  * token O name
  ***************************************************************************/
 
-#include "main.h"
+#include "../../include/main.h"
 
 void setPlayerNames(std::string &playerX, std::string &playerO) {
   std::cout << "Enter name for player with token X: ";
